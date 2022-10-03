@@ -1,18 +1,32 @@
-# Climatograma
-## Inputs requeridos:
-### Datos climatologicos del SENAMHI 2021
-** este es un texto en negrita **
+# Análisis Meteorológico
+## Tratamiento y transformacion de datos
 
-*este es en cursiva*
+**Lenguaje y/o Programas**
+* Python con librerias numpy, pandas, datetime
 
-``print('hola mundo')``
 
-[Ir a Google Dataset](https://datasetsearch.research.google.com/)
+**Entradas**
+* *Temperatura, Humedad, Precipitacion, Direccion y Velocidad del viento* Datos meteorológicos de estaciones automáticas del [SENAMHI](https://www.senamhi.gob.pe/?p=estaciones), para este ejemplo se utilizó los datos de la Estación Santiago de Tuna en el 2021.
+* *Rosa de Vientos* El rango angular de los [puntos cardinales](https://es.wikipedia.org/wiki/Rosa_de_los_vientos) en ocho rumbos colaterales.
+* *Estaciones del año* La duracion de las estaciones astronomicas en el [Peru](https://www.gob.pe/11000-fechas-de-las-estaciones-astronomicas-en-el-peru).
+* *Control de calidad de datos* Para fines de identificacion de datos dudosos se utilizo las pruebas que el [SENAMHI](https://www.senamhi.gob.pe/load/file/00711SENA-54.pdf) proporciona.
 
-![.](https://user-images.githubusercontent.com/83436724/174006840-ea1f2aac-e967-476f-96ba-4bdd49f7830b.svg)
-* Numero 1
-* Numero 2
-* Numero 3
-1. Numero 1
-2. Numero 2
-3. Numero 3
+Todos los datos usados en el trabajo se pueden encontrar en la carpeta SES. Los excel que proporciona SENAMHI, por mes, se juntaron en un excel por año. Todos los excel pasaron a ser formato csv.
+
+**Procedimiento**
+
+Ver el documento PROCEDIMIENTO en la carpeta SES
+
+**Salidas**
+* *dfTh* Datos de temperatura horaria y calidad de datos
+* *dfPh* Datos de precipitacion horaria y calidad de datos
+* *dfHh* Datos de humedad horaria y calidad de datos
+* *dfLluviaEstacion* Datos de dias de lluvia y estacion astronomica
+* *df2* Datos de velocidad y direccion del viento 
+
+## Visualizacion
+
+**Lenguaje y/o Programas**
+* Power BI con la extension de graficos Radar/ Polar Chart - Viz
+* DAX
+
