@@ -49,5 +49,5 @@ Ver el documento Procedimiento en la carpeta [data](https://github.com/JesusChac
 
 Ver el documento codigoDAX en la carpeta [data](https://github.com/JesusChachiRodriguez/Climatograma/tree/main/data).
 
-
+![dashboard final]()
 
