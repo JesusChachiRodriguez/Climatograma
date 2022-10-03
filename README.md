@@ -11,11 +11,11 @@
 * *Estaciones del año* La duracion de las estaciones astronomicas en el [Peru](https://www.gob.pe/11000-fechas-de-las-estaciones-astronomicas-en-el-peru).
 * *Control de calidad de datos* Para fines de identificacion de datos dudosos se utilizo las pruebas que el [SENAMHI](https://www.senamhi.gob.pe/load/file/00711SENA-54.pdf) proporciona.
 
-Todos los datos usados en el trabajo se pueden encontrar en la carpeta SES. Los excel que proporciona SENAMHI, por mes, se juntaron en un excel por año. Todos los excel pasaron a ser formato csv.
+Todos los datos usados en el trabajo se pueden encontrar en la carpeta [data](https://github.com/JesusChachiRodriguez/Climatograma/tree/main/data).
 
 **Procedimiento**
 
-Ver el documento PROCEDIMIENTO en la carpeta SES
+Ver el documento PROCEDIMIENTO en la carpeta [data](https://github.com/JesusChachiRodriguez/Climatograma/tree/main/data)
 
 **Salidas**
 * *dfTh* Temperatura horaria y calidad de datos
