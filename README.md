@@ -28,12 +28,12 @@ Ver el documento Procedimiento en la carpeta [data](https://github.com/JesusChac
 ## Visualizacion
 
 **Lenguajes y/o Programas**
-* Power BI con la extension de graficos Radar/ Polar Chart - Viz
+* Power BI
 * DAX
 
 **Procedimiento**
 
-* Con *df2* se ordeno la columna Tipo_cardinal por Orden 2 y se realizo la Rosa de Vientos. La cartilla se configuro para mostrar la direccion con mayor velocidad promedio.
+* Con *df2* se ordeno la columna Tipo_cardinal por Orden 2 y se realizo la Rosa de Vientos con la extension Radar/Polar Chart - Viz. La cartilla se configuro para mostrar la direccion con mayor velocidad promedio.
 
 * Con *dfTh* se calculo la temperatura mensual promedio, minima y maxima. Las cartillas se configuraron para mostrar el promedio de los datos promedios con o sin filtros aplicados, para ello se genero las columnas: Column, max Th, min Th. Luego se generaron medidas para las cartillas con valores promedio minimos y maximos. Con la columna TC_Th se realizo la tabla calidad de datos, dividiendolo segun  
 
