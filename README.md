@@ -18,11 +18,12 @@ Todos los datos usados en el trabajo se pueden encontrar en la carpeta SES. Los 
 Ver el documento PROCEDIMIENTO en la carpeta SES
 
 **Salidas**
-* *dfTh* Datos de temperatura horaria y calidad de datos
-* *dfPh* Datos de precipitacion horaria y calidad de datos
-* *dfHh* Datos de humedad horaria y calidad de datos
-* *dfLluviaEstacion* Datos diarios de dias con lluvia y estacion astronomica
-* *df2* Datos horarios de velocidad y direccion del viento 
+* *dfTh* Temperatura horaria y calidad de datos
+* *dfPh* Precipitacion horaria y calidad de datos
+* *dfHh* Humedad horaria y calidad de datos
+* *dfLluviaEstacion* Dias con lluvia y estacion astronomica
+* *df2* Velocidad y direccion del viento horaria 
+* *Estacion_descripcion* Ubicacion y descripcion de la estacion meteorologica 
 
 ## Visualizacion
 
