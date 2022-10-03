@@ -1,0 +1,23 @@
+-- dfTh
+
+Columnas
+
+Column = MONTH(dfTh[Dia])
+
+max Th = 
+VAR maxvalue =
+CALCULATE(MAX(dfTh[Th]),ALLEXCEPT(dfTh,dfTh[Column]))
+return
+IF([Th] = maxvalue,maxvalue)
+
+min Th = 
+VAR minvalue =
+CALCULATE(MIN(dfTh[Th]),ALLEXCEPT(dfTh,dfTh[Column]))
+return
+IF([Th] = minvalue,minvalue)
+
+Medidas
+
+Promedio_MaxTh = AVERAGEX(DISTINCT(dfTh[Column]),FIRSTNONBLANK(dfTh[max Th],0))
+
+Promedio_MinTh = AVERAGEX(DISTINCT(dfTh[Column]),FIRSTNONBLANK(dfTh[min Th],0)) 
