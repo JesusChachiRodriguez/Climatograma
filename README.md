@@ -47,7 +47,7 @@ Ver el documento Procedimiento en la carpeta [data](https://github.com/JesusChac
 
 * Con *Estacion_descripcion* se utilizaron las coordenadas para generar un mapa de ubicacion. Los nombres y el codigo se plasmaron en unas cartillas.
 
-En la carpeta [data](https://github.com/JesusChachiRodriguez/Climatograma/tree/main/data) puede consultar el lenguaje DAX
+Ver el documento codigoDAX en la carpeta [data](https://github.com/JesusChachiRodriguez/Climatograma/tree/main/data).
 
 
 
