@@ -21,8 +21,8 @@ Ver el documento PROCEDIMIENTO en la carpeta SES
 * *dfTh* Datos de temperatura horaria y calidad de datos
 * *dfPh* Datos de precipitacion horaria y calidad de datos
 * *dfHh* Datos de humedad horaria y calidad de datos
-* *dfLluviaEstacion* Datos de dias de lluvia y estacion astronomica
-* *df2* Datos de velocidad y direccion del viento 
+* *dfLluviaEstacion* Datos diarios de dias con lluvia y estacion astronomica
+* *df2* Datos horarios de velocidad y direccion del viento 
 
 ## Visualizacion
 
